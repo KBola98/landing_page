@@ -137,3 +137,52 @@ h1 {
     font-weight: bold;
     padding-bottom: 50px;
 }
+
+/* starts the sugnup */
+.forth-section{
+    display: flex;
+    padding: 50px;
+    justify-content : center;
+    align-items: center;
+}
+
+
+.blue-box {
+    background-color: #1E3A8A; /* Blue background */
+    padding: 50px;
+    border-radius: 8px; /* Rounded corners (optional) */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 60%;
+}
+
+
+
+.signup-section button {
+    padding: 10px 20px;
+    background-color: #3B82F6;
+    color: white;
+    
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 100px; 
+}
+
+
+
+.footer {
+    background-color: #1F2937; /* Dark background color */
+    color: white;              /* White text color */
+    text-align: center;        /* Center the text */
+    padding: 30px;             /* Add padding */
+    font-family: sans-serif;   /* Font family */
+    font-size: 16px;           /* Font size */
+}
+
+.footer p {
+    margin: 0; /* Remove default margin for better alignment */
+}
