@@ -78,3 +78,36 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.Section-2{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+    padding:50px;
+    gap: 20px;
+}
+
+h1 {
+    
+    color: #1F2937;
+}
+
+.img{
+    width: 150px; /* Set the width */
+    height: 150px; /* Set the height */
+    border-radius: 15px;
+}
+.img-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.img-txt{
+    max-width: 150px;
+}
+
